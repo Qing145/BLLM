@@ -136,13 +136,8 @@ def load_statement_dict(statement_path):
 if __name__ == '__main__':
 
 
-    # api_key = "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"
-    # api_key = "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"
-    # api_key = "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"
-    # api_key = "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"
-    # api_key = "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"
-    api_key = "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"
-    # api_key = "048c9d3bdba241a79ad102a381a9c7b3"
+    
+    api_key = "xxxxx"
 
     sim_chatgpt = GraphGPT(api_key=api_key)
     print(sim_chatgpt.ask_chat_gpt())
